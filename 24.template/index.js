@@ -1,6 +1,5 @@
 /**
- * 要调用的是相同的，
- * 但是
+ * 抽象类（abstract class）的一种应用
  */
 
 class Template {
