@@ -2,6 +2,9 @@
  * 状态机一般由三部分组成：状态（State）、事件（Event）、动作（Action）。
  * 其中，事件也称为转移条件（Transition Condition）。事件 触发 状态的转移及动作的执行。
  * 不过，动作不是必须的，可能只转移状态，不执行任何动作。
+ * 
+ * javascript的Generator函数是状态机的一种实现，
+ * 参考：[Generator函数的语法](https://es6.ruanyifeng.com/#docs/generator)。
  */
 
 // 有限状态机类
